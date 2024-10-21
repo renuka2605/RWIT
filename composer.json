@@ -2,17 +2,14 @@
     "name": "rwit/hello-world",
     "description": "Basic startup module",
     "type": "magento2-module",
+    "license": "OSL-3.0",
     "version": "1.0.2",
-    "license": [
-        "OSL-3.0",
-        "AFL-3.0"
-    ],
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "rwit\\HelloWorld\\": ""
+            "RWIT\\HelloWorld\\": ""
         }
     },
     "authors": [
@@ -21,7 +18,6 @@
             "email": "jim@rwit.io"
         }
     ],
-    "require": {
-        "php": "~8.1.0||~8.2.0||~8.3.0"
-    }
+    "minimum-stability": "dev",
+    "require": {}
 }
