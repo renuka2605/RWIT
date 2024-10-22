@@ -1,6 +1,6 @@
 # RWIT HelloWorld
 
-    ``rwit/module-helloworld``
+    ``rwit/hello-world``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -29,7 +29,7 @@ Simple Magento 2 module
     - public repository `packagist.org`
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require rwit/module-helloworld`
+ - Install the module composer by running `composer require rwit/hello-world`
  - enable the module by running `php bin/magento module:enable RWIT_HelloWorld`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
